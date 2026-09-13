@@ -1,0 +1,431 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 16px;
+}
+
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    padding-left: 0;
+}
+
+.head-btn{
+    border: 0;
+    background-color: transparent;
+    font-size: 2rem;
+}
+
+header{
+    background-image:url(../images/illustration/person-doing-their-construction-job.jpg);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#unique1{
+    background-image: url(../images/illustration/daniel-mccullough-HtBlQdxfG9k-unsplash.jpg);
+    color: rgb(127, 133, 139);
+}
+
+#unique1 a{
+    color: rgb(179, 194, 210);
+}
+
+#unique h2{
+    color: rgb(206, 19, 91);
+    text-align: left;
+}
+
+#unique {
+    padding-top: 50px;
+}
+
+
+.hero-span{
+    color: orangered;
+}
+
+.hero h2,.hero-span{
+    font-size: 2.6rem;
+    font-weight: 700;
+}
+
+.hero p{
+    font-size: 1.3rem;
+    font-weight: 400;color: white;
+}
+
+.hero-btn{
+    /* border: 1px solid red; */
+    width: 60%;
+    background-color: orange;
+    padding: 10px;
+    margin:10px auto;
+}
+
+.hero-btn a{
+    color: white;
+}
+
+#hero-btnc{
+    background-color: white;
+}
+
+#hero-btnc a{
+    color: black;
+}
+
+.section-2{
+    /* border: 1px solid red; */
+    margin: 20px 0px;
+}
+
+.section-2cccc{
+    /* border: 1px solid red; */
+    width: 100%;
+    height:300px;
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.section-2c{
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.section-2c h2{
+    font-weight: 600;
+    padding: 40px  0;
+}
+
+figcaption{
+    padding: 17px;
+    background-color: navy;
+    color: white;
+}
+
+figcaption a{
+    color: orangered
+}
+
+.section-2cc{
+    /* margin-bottom: 30px; */
+}
+
+.gallery{
+    /* width: 900px; */
+    height: 210px;
+    /* margin: 50px auto; */
+    position: relative;
+}
+
+.top-img{
+    width: 78%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bottom-img{
+    width: 78%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border: 8px solid white;
+}
+
+.gallery img{
+    /* display: block; */
+    /* object-fit: cover; */
+}
+
+.section3,.section3c{
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.gallery{
+    /* border: 1px solid blue; */
+    padding: 20px;
+}
+
+.section3cc h2{
+    padding: 10px 0;
+    font-weight: 700;
+    background-color: rgba(179, 176, 176,0.60);
+    width: fit-content;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.section3ccc a{
+    background-color: orangered;
+    padding: 7px 9px;
+    width: 15%;
+    color: white;
+    margin: 20px auto;
+}
+
+.section4{
+    background-image:linear-gradient(rgba(222, 46, 46, 0.3), rgba(227, 126, 126, 0.3)), url(../images/illustration/person-doing-their-construction-job.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    text-align: center;
+    height: 400px;
+}
+
+.section4 h3{
+    color: white;
+    font-weight: 900;
+    font-size: 2.2rem;
+}
+
+.section4 div{
+    margin: 50px auto;
+}
+
+.carousel-img img{
+    height: 20vh;
+    object-fit: cover;
+    object-position:top;
+    width: 100%;
+ }
+
+.carousel-img{
+    width: 40%;
+}
+
+.item{
+    background-color: rgb(1, 1, 34);
+    color: white;
+    padding: 5px;
+}
+
+.item{
+    position: relative;
+}
+
+.b1,.b2{
+    position: absolute;
+    top: 70vh;
+    background-color: black;
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+}
+
+.b1{
+    left: 60px;
+}
+
+.b2{
+    right: 60px;
+}
+
+.fs-1{
+    font-weight: 700;
+    margin: 30px auto;
+}
+
+.scetion5{
+    /* border: 1px solid red; */
+    padding-bottom: 150px;
+}
+
+.foot-1 h2,p{
+    padding: 10px 0;
+}
+
+.foot-1 p{
+    padding: 10px 0;
+    /* width: 90%; */
+    margin: 10px auto;
+}
+footer{
+    padding: 50px 0;
+    text-align: center;
+    color: white;
+    background-color: rgb(2, 2, 74);
+}
+
+.foot-ul a{
+    padding-left: 0;
+    color: white;
+}
+
+.foot-2{
+    padding: 20px 0;   
+}
+
+.emails{
+    width: 90%;
+    margin: 20px auto;
+    height: 40px;
+}
+
+.s a{
+    color: white;
+}
+
+.s{
+    background-color: orangered;
+    margin-bottom: 20px;
+}
+
+.foot-uls,.hero-main{
+    font-size: 1.5rem;
+    padding-left: 0px;
+}
+
+.hero-main{
+    text-align: center;
+    color: whitesmoke;
+}
+
+.hero-main a {
+    text-align: center;
+    color: whitesmoke;
+}
+
+#offcanvasTop{
+    background-color: rgba(49, 49, 172,0.90);
+    padding: 20px;
+    height: fit-content;
+}
+
+#offcanvasTopLabel{
+    color: white;
+    font-size: 2rem;
+}
+
+.hero-main li{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+#c{
+    padding: 10px 0;
+}
+
+@media (min-width:768px){
+    .hero1{
+        width: 55%;
+        margin-top: 100px;
+    }
+
+    .hero1c{
+        display: flex;
+        column-gap: 10px;
+    }
+
+    .gallery{
+        margin-top: 120px;
+    }
+
+    .section4 h3{
+        width: 95%;
+    }
+
+    .section3ccc a{
+        padding: 15px 30px;
+    }
+
+    .section4 {
+        height: 300px;
+    }
+
+    .fs-1 {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .scetion5 {
+        margin: 20px 0;
+        padding: 20px 0;
+        height: 90vh;
+    }
+
+    .b1,.b2 {
+       top: 40vh;
+    }
+
+    .b1 {
+       left: 41%;
+    }
+
+    .b2 {
+       right: 41%;
+    }
+
+    .carousel-img {
+    height: 200px;
+    width: 20%;
+    }
+
+    .carousel-img img {
+    height: 30vh;
+    object-fit: contain;
+    object-position: top;
+    width: 100%;
+    }
+}
+
+@media (min-width:1024px){
+    .hero1 h2{
+        font-size: 5rem;
+    }
+
+    .hero-span{
+        font-size: 4rem;
+    }
+
+    .hero-btn{
+        padding: 20px;
+    }
+
+    .section3{
+        padding: 50px 0;
+        margin: 50px auto;
+    }
+
+    .bottom-img {
+        height: fit-content;
+    }
+
+    .top-img {
+        height: fit-content;
+
+    }
+
+    .section4 {
+        margin-top: 100px;
+    }
+
+    .h-n{
+        color: rgb(95, 91, 91);
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+}
