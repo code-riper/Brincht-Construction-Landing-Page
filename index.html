@@ -3,237 +3,418 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brincht Construction</title>
+
+    <meta name="description" content="Brincht Construction delivers reliable construction solutions, from preconstruction planning to quality building projects.">
+    <meta name="theme-color" content="#243746">
+
+    <!-- Preload the existing CSS hero background image -->
+    <link rel="preload" as="image" href="./images/illustration/person-doing-their-construction-job.avif" fetchpriority="high">
+
+    <title>Brincht Construction | Building Your Vision</title>
+
+    <!-- Bootstrap 5 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css">
+
+    <!-- Custom styles -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css">
 </head>
+
 <body>
-    <header class="container-fluid" id="home" class="unique2">
-        <div class="d-flex justify-content-between align-items-center p-3">
-            <h1>Brincht</h1>
-            
-            <button class="d-lg-none head-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"><i class="fa-solid fa-bars" style="color: rgb(21, 20, 20);"></i></button>
 
-            <nav class="d-none d-lg-block">
-                <ul class="d-flex justify-content-center align-items-center gap-5">
-                    <li><a class="h-n" href="#home">HOME</a></li>
-                    <li><a class="h-n" href="about.html">ABOUT</a></li>
-                    <li><a class="h-n" href="#service">SERVICES</a></li>
-                    <li><a class="h-n" href="#">BLOG</a></li>
-                    <li><a class="h-n" href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+    <header id="home">
+        <nav class="navbar navbar-expand-lg site-navbar" aria-label="Main navigation">
+            <div class="container">
+                <a class="navbar-brand" href="#home">Brincht<span> Construction</span></a>
 
+                <button
+                    class="navbar-toggler head-btn"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#primaryNavigation"
+                    aria-controls="primaryNavigation"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation" >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <!-- Offcanvas -->
-
-            <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
-              <div class="offcanvas-header">
-                <h5 id="offcanvasTopLabel">Brincht</h5>
-                <button type="button" id="offcanvasTopLabel" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-              </div>
-              <div class="offcanvas-body">
-                <ul class="hero-main">
-                    <li><a href="#home">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="#service">SERVICES</a></li>
-                    <li><a href="#">BLOG</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-              </div>
+                <div class="collapse navbar-collapse" id="primaryNavigation" >
+                    <ul class="navbar-nav ms-lg-auto align-items-lg-center">
+                        <li class="nav-item"><a class="nav-link" href="#home" aria-current="page">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html"> About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#service">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a> </li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        <li class="nav-item nav-cta"><a class="nav-link" href="#contact">Get a Quote</a></li>
+                    </ul>
+                </div>
             </div>
+        </nav>
 
+        <!-- Hero background remains a CSS background image -->
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="container hero-container">
+                <div class="hero1">
+                    <p class="hero-eyebrow">
+                        Construction Solutions
+                    </p>
 
-        </div>
+                    <h1>
+                        Building Your Visions
+                        <span class="hero-span">Creating Reality</span>
+                    </h1>
 
-        <section class="hero text-center mt-4">
-            <div class="hero1">
-            <h2>Building your visions <span class="hero-span">Creating reality</span></h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod magna aliqua. Ut enim ad minim veniam</p>
-            <div class="hero1c">
-                <div class="hero-btn" id="hero-btnc"><a href="#">Read more</a></div>
-                <div class="hero-btn"><a href="#">Get A Quote</a></div>
-            </div>
+                    <p class="hero-description">
+                        We deliver dependable construction solutions
+                        with a focus on quality, safety, and lasting value.
+                    </p>
+
+                    <div class="hero1c">
+                        <a class="hero-btn hero-btn-secondary" href="#about">
+                            Discover More
+                        </a>
+
+                        <a class="hero-btn hero-btn-primary" href="#contact">
+                            Get a Quote
+                            <span aria-hidden="true">&rarr;</span>
+                        </a>
+                    </div>
+                </div>
             </div>
         </section>
     </header>
 
     <main>
-        <section class="section-2 container-fluid" id="service">
-            <div class="section-2c container">
-                    <h2 class="display-5">OUR SERVICES</h2>
-                    <div class="row">
-                    <div class="section-2cc col-12 col-lg-4 h-100">
-                        <figure class="section-2ccc">
+        <!-- Services -->
+        <section class="section-2" id="service" aria-labelledby="services-title">
+            <div class="container section-2c">
+                <p class="section-eyebrow">What We Do</p>
+
+                <h2 class="section-title" id="services-title">
+                    Our Services
+                </h2>
+
+                <p class="section-intro">
+                    Practical construction services designed to bring
+                    your project from planning to completion.
+                </p>
+
+                <div class="row g-4 services-row">
+                    <div class="section-2cc col-12 col-md-6 col-lg-4">
+                        <article class="service-card">
                             <div class="section-2cccc">
-                            <img src="images/illustration/jeriden-villegas-VLPUm5wP5Z0-unsplash.jpg" alt="">
+                                <img src="images/illustration/jeriden-villegas-VLPUm5wP5Z0-unsplash.avif" alt="Construction professionals planning a building project"
+                                    width="600" height="400" decoding="async">
                             </div>
 
-                            <figcaption class="text-center">
+                            <div class="service-content">
                                 <h3>Preconstruction</h3>
-                                <p>Veritatis tempore labore, fugit quis nihil temporibus minima. Tenetur suscipit quibusdam ab necessitatibus aut libero hic eaque dolor a.
-</p>
-                                <a href="#">Read More</a>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    
-                    <div class="section-2cc col-12 col-lg-4 h-100">
-                        <figure class="section-2ccc">
-                            <div class="section-2cccc">
-                            <img src="images/illustration/josue-isai-ramos-figueroa-qvBYnMuNJ9A-unsplash.jpg" alt="">
-                                </div>
-                            <figcaption class="text-center">
-                                <h3>Preconstruction</h3>
-                                <p>Veritatis tempore labore, fugit quis nihil temporibus minima. Tenetur suscipit quibusdam ab necessitatibus aut libero hic eaque dolor a.
-                                    </p>
-                                <a href="#">Read More</a>
-                            </figcaption>
-                        </figure>
+
+                                <p>
+                                    Plan your project with careful
+                                    preparation, coordination, and
+                                    clear construction goals.
+                                </p>
+
+                                <a class="text-link" href="#contact">
+                                    Discuss Your Project
+                                    <span aria-hidden="true">&rarr;</span>
+                                </a>
+                            </div>
+                        </article>
                     </div>
 
-                    <div class="section-2cc col-12 col-lg-4 h-100">
-                        <figure class="section-2ccc">
+                    <div class="section-2cc col-12 col-md-6 col-lg-4">
+                        <article class="service-card">
                             <div class="section-2cccc">
-                            <img src="images/illustration/scott-blake-x-ghf9LjrVg-unsplash.jpg" alt="">
-                                </div>
-                            <figcaption class="text-center">
-                                <h3>Preconstruction</h3>
-                                <p>Veritatis tempore labore, fugit quis nihil temporibus minima. Tenetur suscipit quibusdam ab necessitatibus aut libero hic eaque dolor a.
-                                                </p>
-                                <a href="#">Read More</a>
-                            </figcaption>
-                        </figure>
+                                <img src="images/illustration/josue-isai-ramos-figueroa-qvBYnMuNJ9A-unsplash.avif" alt="Building construction work in progress" 
+                                width="600" height="400" decoding="async">
+                            </div>
+
+                            <div class="service-content">
+                                <h3>Building Construction</h3>
+
+                                <p> Turn project plans into dependable structures with attention to workmanship and safety. </p>
+
+                                <a class="text-link" href="#contact"> Discuss Your Project <span aria-hidden="true">&rarr;</span> </a>
+                            </div>
+                        </article>
                     </div>
 
+                    <div class="section-2cc col-12 col-md-6 col-lg-4">
+                        <article class="service-card">
+                            <div class="section-2cccc">
+                                <img src="images/illustration/scott-blake-x-ghf9LjrVg-unsplash.avif" alt="Construction site with building materials and equipment"
+                                    width="600" height="400" decoding="async">
+                            </div>
+
+                            <div class="service-content">
+                                <h3>Project Management</h3>
+
+                                <p> Coordinate project activities, timelines, and resources to support an organized building process. </p>
+
+                                <a class="text-link" href="#contact"> Discuss Your Project <span aria-hidden="true">&rarr;</span> </a>
+                            </div>
+                        </article>
                     </div>
+                </div>
             </div>
         </section>
 
-        <section class="section3 container-fluid">
+        <!-- About -->
+        <section class="section3" id="about" aria-labelledby="about-title">
             <div class="container">
-                <div class="section3c row">
+                <div class="row g-4 align-items-center section3c">
                     <div class="gallery col-12 col-md-6">
-                        <img class="top-img" src="images/illustration/img1.jpg" alt="">
-                        <img class="bottom-img"  src="images/illustration/img2.jpg" alt="">
+                        <img
+                            class="top-img"
+                            src="images/illustration/img1.avif"
+                            alt="Construction project showing structural building work"
+                            width="600"
+                            height="400"
+                            decoding="async"
+                        >
+
+                        <img
+                            class="bottom-img"
+                            src="images/illustration/img2.avif"
+                            alt="Construction detail from a building project"
+                            width="600"
+                            height="400"
+                            decoding="async"
+                        >
                     </div>
-                    <div class="section3cc col-12 col-md-6 text-start">
-                        <h2 class="display-5 ">Who Are We?</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores quam quisquam blanditiis, impedit atque nam ratione fugiat dolor, numquam rerum at minus cumque commodi? Error consequuntur aut magnam pariatur enim?</p>
-                         <p>Rerum omnis officiis saepe, nihil animi adipisci consequuntur totam molestiae veniam rem similique reprehenderit, labore magnam vel! Dolorum odio nemo asperiores dolore deserunt? Magni cupiditate non earum saepe maxime rem.</p>
-                        <div class="section3ccc"><a href="#">READ MORE</a></div>
+
+                    <div class="section3cc col-12 col-md-6">
+                        <p class="section-eyebrow">About Brincht</p>
+
+                        <h2 class="section-title" id="about-title"> Who Are We? </h2>
+
+                        <p> We believe successful construction begins with careful planning, skilled work, and a commitment to quality at every stage. </p>
+
+                        <p> Our approach focuses on practical solutions, clear communication, and building projects designed to serve people for years to come. </p>
+
+                        <a class="hero-btn hero-btn-primary" href="about.html">Read More<span aria-hidden="true">&rarr;</span></a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="section4">
-            <div>
-                <h3>You construct a dream. We will construct them to reality</h3>
-                <div class=" section3ccc"><a href="#">Get A Qoute</a></div>
+        <!-- Call to action -->
+        <section class="section4" aria-labelledby="cta-title" >
+            <div class="container section4-content">
+                <p class="section-eyebrow">Let's Build Together</p>
+
+                <h2 id="cta-title"> You Dream It. We Build It. </h2>
+
+                <p> Tell us about your next construction project. </p>
+
+                <a class="hero-btn hero-btn-primary" href="#contact">
+                    Get a Quote
+                    <span aria-hidden="true">&rarr;</span>
+                </a>
             </div>
         </section>
 
-        <section class="scetion5 container-fluid">
+        <!-- Testimonials -->
+        <section class="section5" id="testimonials" aria-labelledby="testimonials-title" >
             <div class="container">
-                <h3 class="fs-1">What says our clients</h3>
+                <p class="section-eyebrow text-center"> Client Experiences </p>
 
-                <div id="carouselExample" class="carousel slide">
-                <div class="carousel-inner">
+                <h2 class="section-title text-center" id="testimonials-title" >
+                    What Our Clients Say
+                </h2>
 
-                  <div class="item carousel-item active">  
-                    <div class="row">       
-                    <div class="col-12 col-md-6 carousel-img"><img src="images/illustration/c-img.png" class="d-block w-100" alt="..."></div>
-                    <div class="col-12 col-md-6">
-                        <h4>Minim Veniam</h4>
-                        <p>Architecto nihil accusantium ab porro rem minima aliquid vel nulla delectus natus necessitatibus corrupti, ipsam maiores at quas officiis dolores deleniti numquam aperiam maxime. Pariatur minima adipisci unde quisquam cumque!</p>
-                    </div>
-                    </div>
-                  </div>
+                <div id="testimonialCarousel" class="carousel slide"
+                    data-bs-ride="false" aria-label="Client testimonials">
+                    <div class="carousel-inner">
 
-                  <div class="item carousel-item">
-                    <div class="row">  
-                    <div class="col-12 col-md-6 carousel-img"><img src="images/illustration/c-img.png" class="d-block w-100" alt="..."></div>
-                    <div class="col-12 col-md-6">
-                        <h4>Minim Veniam</h4>
-                        <p>Architecto nihil accusantium ab porro rem minima aliquid vel nulla delectus natus necessitatibus corrupti, ipsam maiores at quas officiis dolores deleniti numquam aperiam maxime. Pariatur minima adipisci unde quisquam cumque!</p>
-                    </div>
-                    </div>
-                  </div>
+                        <div class="carousel-item active">
+                            <article class="testimonial-card">
+                                <div class="row g-4 align-items-center">
+                                    <div class="col-12 col-md-5 carousel-img">
+                                        <img src="images/illustration/c-img.avif" class="testimonial-image" alt="" width="500" height="350" decoding="async">
+                                    </div>
 
-                  <div class="item carousel-item">
-                    <div class="row">  
-                    <div class="col-12 col-md-6 carousel-img"><img src="images/illustration/c-img.png" class="d-block w-100" alt="..."></div>
-                    <div class="col-12 col-md-6">
-                        <h4>Minim Veniam</h4>
-                        <p>Architecto nihil accusantium ab porro rem minima aliquid vel nulla delectus natus necessitatibus corrupti, ipsam maiores at quas officiis dolores deleniti numquam aperiam maxime. Pariatur minima adipisci unde quisquam cumque!</p>
-                    </div>
-                    </div>
-                  </div>
+                                    <div class="col-12 col-md-7">
+                                        <h3>Minim Veniam</h3>
 
+                                        <p> The construction process benefited from clear planning, professional communication, and careful attention to detail. </p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="carousel-item">
+                            <article class="testimonial-card">
+                                <div class="row g-4 align-items-center">
+                                    <div class="col-12 col-md-5 carousel-img">
+                                        <img src="images/illustration/c-img.avif" class="testimonial-image" alt="" width="500"
+                                            height="350" decoding="async">
+                                    </div>
+
+                                    <div class="col-12 col-md-7">
+                                        <h3>Client Testimonial</h3>
+
+                                        <p> Our project required careful coordination and consistent communication throughout the building process. </p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="carousel-item">
+                            <article class="testimonial-card">
+                                <div class="row g-4 align-items-center">
+                                    <div class="col-12 col-md-5 carousel-img">
+                                        <img src="images/illustration/c-img.avif" class="testimonial-image" alt=""
+                                            width="500" height="350" decoding="async" >
+                                    </div>
+
+                                    <div class="col-12 col-md-7">
+                                        <h3>Client Testimonial</h3>
+
+                                        <p> Quality workmanship and organized project planning are essential to a successful construction experience. </p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                    </div>
+
+                    <div class="carousel-controls">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"data-bs-slide="prev"aria-label="Previous testimonial" >
+                            <span class="carousel-control-prev-icon" aria-hidden="true"  ></span>
+                        </button>
+
+                        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next" aria-label="Next testimonial" >
+                            <span class="carousel-control-next-icon" aria-hidden="true" ></span>
+                        </button>
+                    </div>
                 </div>
-
-
-                <button class="b1 carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="b2 carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-            </div>
             </div>
         </section>
     </main>
 
-    <footer class="container-fluid" id="contact">
-        
-        <div class="row">
-            <div class="col-12 col-md-3 foot-1">
-                <h2>Brincht</h2>
-                <p>Libero minus ab reprehenderit atque cum praesentium placeat quos est enim facere cumque. Numquam pariatur alias</p>
+    <!-- Footer -->
+    <footer class="site-footer" id="contact">
+        <div class="container">
+            <div class="row g-4">
+
+                <div class="col-12 col-md-6 col-lg-3 foot-1">
+                    <h2 class="footer-heading">Brincht</h2>
+
+                    <p> Building with care, commitment, and a focus on dependable construction solutions. </p>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 foot-1">
+                    <h2 class="footer-heading">Useful Links</h2>
+
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="#service">Services</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h2 class="footer-heading">Contact Us</h2>
+
+                    <ul class="foot-ul">
+                        <li>
+                            <a href="#contact">
+                                <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                                <span>Enter your business address</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="tel:+011234567890">
+                                <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                                <span>Call: +01 1234567890</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="mailto:demo@gmail.com">
+                                <i class="fa-regular fa-envelope" aria-hidden="true"></i>
+                                <span>demo@gmail.com</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 foot-1">
+                    <h2 class="footer-heading">Newsletter</h2>
+
+                    <form class="newsletter-form" action="#" method="get">
+                        <label for="newsletterEmail">
+                            Email address
+                        </label>
+
+                        <input
+                            class="emails"
+                            id="newsletterEmail"
+                            name="email"
+                            type="email"
+                            autocomplete="email"
+                            placeholder="Enter your email"
+                            required
+                        >
+
+                        <button class="hero-btn hero-btn-primary newsletter-submit" type="submit">
+                            Subscribe
+                        </button>
+                    </form>
+
+                    <ul
+                        class="social-links d-flex justify-content-center align-items-center gap-3"
+                        aria-label="Social media"
+                    >
+                        <li>
+                            <a href="#" aria-label="Facebook">
+                                <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" aria-label="X">
+                                <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" aria-label="YouTube">
+                                <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" aria-label="Instagram">
+                                <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
 
-             <div class="col-12 col-md-3 foot-1">
-                <h2>Useful Link</h2>
-                <p>Dolor sit amet, consectetur Magna aliqua. Ut enim ad Minim veniam placeat Quisdotempor incididunt</p>
-            </div>
-
-            <div class="col-12 col-md-3">
-                <h2 id="c">Contact Us</h2>
-                <ul class="foot-ul">
-                    <li><a href="#"><i class="fa-solid fa-location-dot" style="color: rgb(252, 248, 248);"></i><span>Lorem ipsum dolor sit amet,</span></a></li>
-                    <li><a href="#"><i class="fa-solid fa-phone" style="color: rgb(250, 246, 246);"></i><span>Call : +01 1234567890</span></a></li>
-                    <li><a href="#"><i class="fa-regular fa-envelope" style="color: rgb(250, 247, 247);"></i><span>demo@gmail.com</span></a></li>
-                </ul>
-            </div>
-
-            <div class="col-12 col-md-3 foot-1">
-                <h3 id="c">Newsletter</h3>
-                <input class="emails" type="email" placeholder="Enter your email">
-                <div class="hero-btn s"><a href="#">SUBSCRIBE</a></div>
-                
-                <ul class="foot-uls d-flex justify-content-center align-items-center gap-3 ">
-                    <li><a class="foot-uls" href="#"><i class="fa-brands fa-facebook" style="color: rgb(252, 246, 246);"></i></a></li>
-                    <li><a class="foot-uls" href="#"><i class="fa-brands fa-x-twitter" style="color: rgb(248, 243, 243);"></i></a></li>
-                    <li><a class="foot-uls" href="#"><i class="fa-brands fa-youtube" style="color: rgb(247, 242, 242);"></i></a></li>
-                    <li><a class="foot-uls" href="#"><i class="fa-brands fa-instagram" style="color: rgb(248, 244, 244);"></i></a></li>
-                </ul>
+            <div class="footer-bottom">
+                <p>
+                    &copy; 2026 Brincht Construction.
+                    All rights reserved.
+                </p>
             </div>
         </div>
-        
-        <div>&copy; 2026 All Rights Reserved. Design by Free Html Templates</div>
     </footer>
 
-
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"
+        defer
+    ></script>
 
 </body>
 </html>
