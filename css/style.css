@@ -179,10 +179,14 @@ select:focus-visible {
     top: 0;
     right: 0;
     left: 0;
+
     width: 100%;
     padding: var(--space-4) 0;
+
     background-color: rgba(255, 255, 255, 0.96);
     border-bottom: var(--border-width) solid var(--color-border);
+
+    backdrop-filter: blur(12px);
 }
 
 .navbar-brand {

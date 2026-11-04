@@ -3,100 +3,206 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css">
+    <meta name="description" content="Learn more about Brincht Construction, our values, and our commitment to quality construction." >
+    <meta name="theme-color" content="#243746">
+
+    <title>About Us | Brincht Construction</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" >
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" >
+    
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style1.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css">
 </head>
+
 <body>
-    <header class="container-fluid" id="home unique1">
-        <div class="d-flex justify-content-between align-items-center p-3">
-            <h1>Brincht</h1>
-            
-            <button class="d-lg-none head-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"><i class="fa-solid fa-bars" style="color: rgb(21, 20, 20);"></i></button>
+    <!-- Header and navigation -->
+<header id="home">
+    <nav class="navbar navbar-expand-lg site-navbar">
+        <div class="container">
 
-            <nav class="d-none d-lg-block">
-                <ul class="d-flex justify-content-center align-items-center gap-5">
-                    <li><a class="h-n" href="index.html">HOME</a></li>
-                    <li><a class="h-n" href="#contact">Contact</a></li>
+            <a class="navbar-brand" href="index.html"> Brincht<span>.</span>  </a>
+
+            <button class="navbar-toggler head-btn" type="button" data-bs-toggle="collapse" data-bs-target="#primaryNavigation"
+                aria-controls="primaryNavigation" aria-expanded="false" aria-label="Toggle navigation" >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="primaryNavigation">
+                <ul class="navbar-nav ms-lg-auto align-items-lg-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#home">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html" aria-current="page">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#service">Services</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+
+                    <li class="nav-item nav-cta">
+                        <a class="nav-link" href="#contact">Get a Quote</a>
+                    </li>
                 </ul>
-            </nav>
-
-
-            <!-- Offcanvas -->
-
-            <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
-              <div class="offcanvas-header">
-                <h5 id="offcanvasTopLabel">Brincht</h5>
-                <button type="button" id="offcanvasTopLabel" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-              </div>
-              <div class="offcanvas-body">
-                <ul class="hero-main">
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-              </div>
             </div>
 
-
         </div>
+    </nav>
+</header>
 
-        <section class="hero text-center mt-4" id="unique">
-            <div class="hero1">
-            <h2>Ab<span class="hero-span">ou</span>t</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod magna aliqua. Ut enim ad minim veniam</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime voluptate possimus fugiat molestias adipisci dolorum ex aliquam aliquid laboriosam.</p>
-            
-            <!-- <div class="hero1c">
-                <div class="hero-btn" id="hero-btnc"><a href="#">Read more</a></div>
-                <div class="hero-btn"><a href="#">Get A Quote</a></div>
-            </div> -->
+
+    <main>
+
+        <!-- About hero -->
+        <section class="about-hero" id="about" aria-labelledby="about-title" >
+            <div class="about-hero-overlay"></div>
+
+            <div class="about-hero-content">
+                <p class="about-eyebrow"> BUILT ON QUALITY </p>
+
+                <h1 id="about-title"> About <span>Brincht</span> </h1>
+
+                <p class="about-intro"> Building with purpose. Delivering with integrity. </p>
+
+                <div class="about-description">
+                    <p> We believe every successful construction project begins with thoughtful planning, skilled work, and a commitment to quality. </p>
+
+                    <p> Our goal is to create dependable construction solutions through careful execution, attention to detail, and a focus on our clients' needs. </p>
+                </div>
+
+                <a class="about-cta" href="#contact">
+                    Get in Touch
+                    <i class="fa-solid fa-arrow-right" aria-hidden="true" ></i>
+                </a>
             </div>
         </section>
-    </header>
 
+    </main>
 
-    <footer class="container-fluid" id="contact">
-        
-        <div class="row">
-            <div class="col-12 col-md-3 foot-1">
-                <h2>Brincht</h2>
-                <p>Libero minus ab reprehenderit atque cum praesentium placeat quos est enim facere cumque. Numquam pariatur alias</p>
+    <!-- Footer -->
+    <footer class="about-footer" id="contact">
+        <div class="container-fluid about-footer-container">
+
+            <div class="row about-footer-row">
+
+                <!-- Company -->
+                <div class="col-12 col-md-6 col-lg-3 about-footer-column">
+                    <h2 class="about-footer-title">
+                        Brincht<span>.</span>
+                    </h2>
+
+                    <p>Building dependable spaces through thoughtfulplanning, quality workmanship, and a commitmentto lasting results.</p>
+                </div>
+
+                <!-- Useful links -->
+                <div class="col-12 col-md-6 col-lg-3 about-footer-column">
+                    <h2 class="about-footer-title"> Useful Links </h2>
+
+                    <ul class="about-footer-links">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Contact information -->
+                <div class="col-12 col-md-6 col-lg-3 about-footer-column">
+                    <h2 class="about-footer-title"> Contact Us </h2>
+
+                    <ul class="about-contact-list">
+                        <li>
+                            <i class="fa-solid fa-location-dot" aria-hidden="true" ></i>
+                            <span>
+                                Add your business address
+                            </span>
+                        </li>
+
+                        <li>
+                            <i class="fa-solid fa-phone" aria-hidden="true"></i>
+
+                            <a href="tel:+911234567890"> +91 12345 67890 </a>
+                        </li>
+
+                        <li>
+                            <i class="fa-regular fa-envelope" aria-hidden="true" ></i>
+
+                            <a href="mailto:contact@example.com">contact@example.com </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Newsletter and social links -->
+                <div class="col-12 col-md-6 col-lg-3 about-footer-column">
+                    <h2 class="about-footer-title">Newsletter </h2>
+
+                    <form class="about-newsletter" action="#" method="get" >
+                        <label class="visually-hidden" for="about-newsletter-email" >
+                            Email address
+                        </label>
+
+                        <input class="about-email-input"  id="about-newsletter-email"  type="email"  name="email"
+                            placeholder="Enter your email" autocomplete="email" required >
+
+                        <button class="about-subscribe-button" type="submit" >
+                            Subscribe
+                        </button>
+                    </form>
+
+                    <ul class="about-social-links" aria-label="Social media" >
+                        <li>
+                            <a href="#"  aria-label="Facebook">
+                                <i class="fa-brands fa-facebook-f" aria-hidden="true" ></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" aria-label="X">
+                                <i class="fa-brands fa-x-twitter" aria-hidden="true" ></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" aria-label="YouTube">
+                                <i class="fa-brands fa-youtube" aria-hidden="true" ></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" aria-label="Instagram">
+                                <i class="fa-brands fa-instagram" aria-hidden="true" ></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
             </div>
 
-             <div class="col-12 col-md-3 foot-1">
-                <h2>Useful Link</h2>
-                <p>Dolor sit amet, consectetur Magna aliqua. Ut enim ad Minim veniam placeat Quisdotempor incididunt</p>
+            <div class="about-footer-bottom">
+                <p> &copy; 2026 Brincht Construction. All rights reserved. </p>
             </div>
 
-            <div class="col-12 col-md-3">
-                <h2 id="c">Contact Us</h2>
-                <ul class="foot-ul">
-                    <li><a href="#"><i class="fa-solid fa-location-dot" style="color: rgb(252, 248, 248);"></i><span>Lorem ipsum dolor sit amet,</span></a></li>
-                    <li><a href="#"><i class="fa-solid fa-phone" style="color: rgb(250, 246, 246);"></i><span>Call : +01 1234567890</span></a></li>
-                    <li><a href="#"><i class="fa-regular fa-envelope" style="color: rgb(250, 247, 247);"></i><span>demo@gmail.com</span></a></li>
-                </ul>
-            </div>
-
-            <div class="col-12 col-md-3 foot-1">
-                <h3 id="c">Newsletter</h3>
-                <input class="emails" type="email" placeholder="Enter your email">
-                <div class="hero-btn s"><a href="#">SUBSCRIBE</a></div>
-                
-                <ul class="foot-uls d-flex justify-content-center align-items-center gap-3 ">
-                    <li><a class="foot-uls" href="#"><i class="fa-brands fa-facebook" style="color: rgb(252, 246, 246);"></i></a></li>
-                    <li><a class="foot-uls" href="#"><i class="fa-brands fa-x-twitter" style="color: rgb(248, 243, 243);"></i></a></li>
-                    <li><a class="foot-uls" href="#"><i class="fa-brands fa-youtube" style="color: rgb(247, 242, 242);"></i></a></li>
-                    <li><a class="foot-uls" href="#"><i class="fa-brands fa-instagram" style="color: rgb(248, 244, 244);"></i></a></li>
-                </ul>
-            </div>
         </div>
-        
-        <div>&copy; 2026 All Rights Reserved. Design by Free Html Templates</div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Bootstrap JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
