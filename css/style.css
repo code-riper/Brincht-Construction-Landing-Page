@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-   /* 1. DESIGN SYSTEM */
+   /*  DESIGN SYSTEM */
 
 :root {
     /* Brand colors */
@@ -67,7 +67,7 @@
     --focus-offset: 3px;
 }
 
-   /* 2. RESET AND GLOBAL STYLES */
+   /*  GLOBAL STYLES */
 
 html {
     font-size: 16px;
@@ -171,7 +171,7 @@ select:focus-visible {
     color: var(--color-text-secondary);
 }
 
-   /* 3. NAVIGATION */
+   /*  NAVIGATION */
 
 .site-navbar {
     position: absolute;
@@ -257,7 +257,7 @@ select:focus-visible {
     height: 1.5rem;
 }
 
-   /* 4. HERO */
+   /*  HERO */
 
 .hero {
     position: relative;
@@ -323,7 +323,7 @@ select:focus-visible {
     gap: var(--space-3);
 }
 
-   /* 5. REUSABLE  */
+   /*  REUSABLE  */
 
 .hero-btn {
     display: inline-flex;
@@ -376,7 +376,7 @@ select:focus-visible {
     color: var(--color-primary);
 }
 
-   /* 6. SERVICES */
+   /*  SERVICES */
 
 .section-2 {
     padding: var(--section-padding) 0;
@@ -396,7 +396,6 @@ select:focus-visible {
 }
 
 .service-card {
-    /* border: 1px solid red; */
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -405,8 +404,7 @@ select:focus-visible {
     border-radius: var(--radius-medium);
     background-color: var(--color-surface);
     box-shadow: var(--shadow-card);
-    transition: transform var(--transition-normal), box-shadow var(--transition-normal),
-        border-color var(--transition-normal);
+    transition: transform var(--transition-normal), box-shadow var(--transition-normal),border-color var(--transition-normal);
 }
 
 .section-2cccc {
@@ -456,7 +454,7 @@ select:focus-visible {
     color: var(--color-primary);
 }
 
-   /* 7. ABOUT / IMAGE GALLERY */
+   /*  ABOUT  */
 
 .section3 {
     padding: var(--section-padding) 0;
@@ -510,7 +508,7 @@ select:focus-visible {
     margin-top: var(--space-3);
 }
 
-   /* 8. CALL TO ACTION (CTA) */
+   /*  CALL TO ACTION (CTA) */
 
 .section4 {
     position: relative;
@@ -544,7 +542,7 @@ select:focus-visible {
     font-size: var(--font-size-subtitle);
 }
 
-   /* 9. TESTIMONIALS */
+   /*  TESTIMONIALS */
 
 .section5 {
     padding: var(--section-padding) 0;
@@ -614,7 +612,7 @@ select:focus-visible {
     transform: translateY(-2px);
 }
 
-/* 10. FOOTER */
+/*  FOOTER */
 
 .site-footer {
     padding: var(--section-padding) 0 var(--space-4);
@@ -733,7 +731,7 @@ select:focus-visible {
     font-size: var(--font-size-small);
 }
 
-   /* 11. ANIMATION */
+   /*  ANIMATION */
 
  @keyframes hero-enter {
     from {
@@ -772,7 +770,7 @@ select:focus-visible {
     }
 }
 
-   /* 12. TABLET RWD */
+   /* TABLET */
 
 @media (min-width: 768px) {
     :root {
@@ -827,7 +825,7 @@ select:focus-visible {
     }
 }
 
-   /* 13. DESKTOP */
+   /*  DESKTOP */
 
 @media (min-width: 1024px) {
     :root {
