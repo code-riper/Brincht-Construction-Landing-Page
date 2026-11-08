@@ -85,12 +85,6 @@ Through this project, I practiced:
 
 ---
 
-## 📚 What I Learned
-
-This project helped me understand how to build a structured and responsive business website using HTML5, CSS3, and Bootstrap 5.
-
----
-
 ## 👨‍💻 Author
 
 **Faisal Salmani**
