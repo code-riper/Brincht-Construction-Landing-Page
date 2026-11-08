@@ -252,11 +252,6 @@ select:focus-visible {
     background-color: var(--color-surface);
 }
 
-.head-btn .navbar-toggler-icon {
-    width: 1.5rem;
-    height: 1.5rem;
-}
-
    /*  HERO */
 
 .hero {
